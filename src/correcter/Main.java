@@ -27,6 +27,12 @@ public class Main {
             case "decode":
                 decode();
                 break;
+
+            case "everything":
+                encode();
+                send();
+                decode();
+                break;
         }
     }
 
